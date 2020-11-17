@@ -6,7 +6,7 @@
 
 int main()
 {
-	int epc, escolha;
+	int i, epc, escolha;
 	int pdp = 0;
 	int pdc = 0;
 
@@ -31,7 +31,12 @@ int main()
 
 		epc = rand() % 2;
 
-
+		Sleep(300);
+		printf("Jo...\n");
+		Sleep(300);
+		printf("Ken...\n");
+		Sleep(300);
+		printf("Po.\n-----------------------------\n");
 
 		if(escolha == epc )
 		{
