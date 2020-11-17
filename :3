@@ -6,7 +6,7 @@
 
 int main()
 {
-	int i, epc, escolha;
+	int epc, escolha;
 	int pdp = 0;
 	int pdc = 0;
 
